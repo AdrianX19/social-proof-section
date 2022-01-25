@@ -40,10 +40,11 @@ body {
 }
 
 .rate {
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 400px;
     background: hsl(300, 24%, 96%);
     border-radius: 10px;
-    margin: 15px 0;
-    padding: 15px;
 }
 
 .rate__stars {
@@ -65,8 +66,9 @@ body {
 }
 
 .review {
-    margin: 15px 0;
+    margin: 15px auto;
     padding: 40px 30px;
+    max-width: 400px;
     background: hsl(300, 43%, 22%);
     border-radius: 10px;
     font-size: 13px;
@@ -142,8 +144,10 @@ body {
     .rate {
         display: flex;
         align-items: center;
+        margin: 15px 0;
         padding: 18px 25px;
         width: 450px;
+        max-width: initial;
     }
 
     .rate:nth-child(2) {
@@ -170,7 +174,9 @@ body {
     }
 
     .review {
+        margin: 15px 0;
         flex-basis: 31%;
+        max-width: initial;
     }
 
     .review:nth-child(2) {
